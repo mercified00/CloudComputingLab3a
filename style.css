@@ -1,0 +1,103 @@
+body {
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+@page {
+  size: A4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: lightblue;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 14px;
+}
+
+.line{
+  border-bottom: 0.05cm solid black;
+}
+
+#linkedin:visited {
+  color: blue;
+}
+
+.designation,
+.contact-info {
+  font-size: 8.5px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.education h2,
+.achievements h2,
+.experience h2,
+.co-curricular h2,
+.project h2,
+.skills h2 {
+  font-size: 8.5px;
+  margin-bottom: 0px;
+}
+
+.education-header,
+.company,
+.ref {
+  font-size: 8.5px;
+  margin-bottom: 0px;
+}
+
+.location,
+.date,
+.expected-graduation {
+  float: right;
+}
+
+.list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.achievement_statements,
+.skill {
+  font-size: 8.5px;
+  list-style-type: disc;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+
+.experience,
+.activity,
+.project,
+.achievement {
+  font-size: 8.5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+}
